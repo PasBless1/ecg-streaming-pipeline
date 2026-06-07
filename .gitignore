@@ -44,3 +44,4 @@ postgres-db-volume/
 !data/raw/.gitkeep
 !data/delta_lake/.gitkeep
 !data/checkpoints/.gitkeep
+CLAUDE.md 
