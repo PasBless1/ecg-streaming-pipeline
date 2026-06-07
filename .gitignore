@@ -1,0 +1,46 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+
+# Data — never commit raw ECG data or Delta Lake files
+data/raw/
+data/delta_lake/
+data/checkpoints/
+*.dat
+*.hea
+*.atr
+*.edf
+
+# Spark artifacts
+derby.log
+metastore_db/
+spark-warehouse/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Claude Code project files
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+postgres-db-volume/
+
+# Keep directory structure tracked
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/delta_lake/.gitkeep
+!data/checkpoints/.gitkeep
